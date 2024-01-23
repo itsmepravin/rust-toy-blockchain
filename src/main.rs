@@ -1,3 +1,4 @@
+#[macro_use]
 extern crate serde_derive;
 
 use std::io;
@@ -33,6 +34,7 @@ fn main() {
         println!("3) Change Difficulty");
         println!("4) Change Reward");
         println!("0) Exit");
+        print!("Enter your choice: ");
         io::stdout().flush();
         choice.clear();
         io::stdin().read_line(&mut choice);

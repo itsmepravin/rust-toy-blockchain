@@ -9,3 +9,5 @@ After that :
 - Run "cargo --version" to check if it was installed correctly.
 
 - Download the zip or clone the repo.
+
+- Now in a terminal, type "cargo run" and your local blockchain should be up and running.
